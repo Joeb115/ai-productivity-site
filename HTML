@@ -1,1 +1,58 @@
-<script async data-uid="your-convertkit-form-uid" src="https://f.convertkit.com/your-convertkit-form-uid.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Productivity Vault</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="text-center py-10 px-4">
+    <h1 class="text-4xl font-bold mb-4">Master Your Money & Time with AI</h1>
+    <p class="text-lg">Download your free AI-powered Money Tracker + explore digital tools to automate your life.</p>
+    <a href="#signup" class="mt-6 inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700">Get Free Template</a>
+  </header>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-semibold mb-4">What You Get</h2>
+    <ul class="space-y-4">
+      <li>✅ AI-Powered Budget Planner (Notion Template)</li>
+      <li>✅ Time-Blocking + Goal Tracker</li>
+      <li>✅ Built-in ChatGPT Prompts to guide planning & finances</li>
+    </ul>
+  </section>
+
+  <section class="bg-white py-12 px-4 text-center">
+    <h2 class="text-2xl font-semibold mb-4">The AI Productivity Vault</h2>
+    <p class="mb-4">Unlock all templates and automation tools in one simple bundle.</p>
+    <a href="https://your-gumroad-link.com" target="_blank" class="bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700">Buy Now for $47</a>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 py-12">
+    <h2 class="text-xl font-semibold mb-2">Who I Am</h2>
+    <p>I help ambitious professionals use AI + Notion to master their finances and productivity – without burnout.</p>
+  </section>
+
+  <section id="signup" class="bg-gray-100 py-12 px-4 text-center">
+    <h2 class="text-2xl font-semibold mb-4">Get Your Free AI Money Tracker</h2>
+    <p class="mb-6">Enter your email below and get instant access to the free Notion template.</p>
+    <!-- ConvertKit Embed Form -->
+    <div class="max-w-md mx-auto">
+      <script async data-uid="your-convertkit-form-uid" src="https://f.convertkit.com/your-convertkit-form-uid.js"></script>
+    </div>
+    <!-- Success Message -->
+    <div id="success-message" class="hidden text-green-600 mt-4 font-semibold">🎉 Success! Check your email for the template.</div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 py-6">
+    <p>© 2025 YourName. Built with AI & ambition.</p>
+  </footer>
+
+  <script>
+    // Optional: show success message if redirected back with query param
+    if (window.location.search.includes("success")) {
+      document.getElementById("success-message").classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
